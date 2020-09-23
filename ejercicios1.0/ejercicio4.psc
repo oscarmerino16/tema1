@@ -11,16 +11,18 @@ Algoritmo ejercicio4
 	Leer num3;
 	
 	Si num1 > num2 Entonces
+		si num1 > num3 Entonces
+			
 		Escribir "El primer numero es el mas mayor"
-		
+		fin si
 	SiNo
 		si num2 > num3 Entonces
 			Escribir "El segundo numero es el mas mayor"
 		SiNo
-			si num3 > num1 Entonces
-				Escribir "El tercer numero es el mas mayor"
+			
+			Escribir "El tercer numero es el mas mayor"
 				
-				FinSi
 		Fin Si	
 	Fin Si
+	
 FinAlgoritmo
