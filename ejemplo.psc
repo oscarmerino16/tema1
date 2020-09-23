@@ -3,8 +3,13 @@ Algoritmo ejemplo
 	Definir edad Como Entero;
 	Definir carnet Como Logico;
 	
-	nombre = "Oscar";
-	edad = 19;
+	Escribir "Dime tu nombre";
+	Leer nombre;
+	Escribir "Dime tu edad";
+	Leer edad;
+	
+	//nombre = "Oscar";
+	//edad = 19;
 	carnet = Falso;
 	
 	Escribir nombre, " ", edad, " ", carnet;
