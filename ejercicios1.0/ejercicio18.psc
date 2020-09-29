@@ -1,3 +1,4 @@
+
 Algoritmo ejercicio18
 	Definir num Como Entero;
 		Para num=1 Hasta 100 Con Paso 1

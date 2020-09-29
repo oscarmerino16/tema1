@@ -1,6 +1,7 @@
 Algoritmo ejercicio16
 	Definir  clave Como Caracter;
 	Definir  contador Como Entero;
+	Definir  interruptor Como Logico;
 	
 	clave="eureka";
 	contador=0;
