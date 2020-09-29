@@ -9,7 +9,7 @@ Algoritmo ejercicio16
 	Mientras (contador<3 y interruptor=Falso) Hacer
 		Escribir "Dime la clave para poder acceder (solo letras)"
 		leer clave
-		si (clave="eureka") entonces
+		si (clave=="eureka") entonces
 			Escribir "La clave es correcta"
 			interruptor=Verdadero
 		FinSi
