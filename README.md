@@ -17,3 +17,10 @@
    * Ejercicio 11
    * Ejercicio 12
    * Ejercicio 13
+   * Ejercicio 14
+   * Ejercicio 15
+   * Ejercicio 16
+   * Ejercicio 17
+   * Ejercicio 18
+   * Ejercicio 19
+   * Ejercicio 20
