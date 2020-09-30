@@ -1,18 +1,27 @@
 Algoritmo ejercicio1_2
 	
-	Definir importe Como Real;
-	Definir iva Como Real;
-	Definir total Como Real;
-	Definir cambio Como Real;
-	//Definir interruptor Como Logico;
+	Definir importe, total, iva, cambio, devolucion Como Real;
 	
-	//interruptor=Verdadero;
 	
+	
+	importe=0;
 
 		Escribir "Importe a pagar";
 		Leer importe;
 		
-		Escribir ""
+		iva=(importe*21)/100;
+		total=importe+iva;
+		
+		Escribir "El IVA es ", iva;
+		
+		Escribir "EL importe total es ", total;
+		
+		Escribir "Dime el dinero que te ha dado el cliente"
+		leer cambio;
+		
+		devolucion=cambio-total;
+		
+		Escribir "La devolucion es ", devolucion
 	
 
 FinAlgoritmo
