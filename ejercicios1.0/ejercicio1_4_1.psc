@@ -1,7 +1,7 @@
 Algoritmo ejercicio1_4_1
 	
 	Definir nombre, aux, nombre2 Como Caracter;
-	Definir long Como Entero;
+	Definir long, i  Como Entero;
 	
 	Escribir "Dime tu nombre y te dire como se escribe al reves";
 	leer nombre;
@@ -14,7 +14,7 @@ Algoritmo ejercicio1_4_1
 		nombre2=Subcadena(nombre,i,i);
 		
 		Si nombre2==" " Entonces
-			i = longitud(nombre)
+			i = longitud(nombre);
 		SiNo
 			aux=nombre2+aux;
 		Fin Si
