@@ -3,7 +3,7 @@ Algoritmo ejbuscar
 	Definir text, palabra Como Caracter;
 	Definir cont,i Como Entero;
 	
-	text="hola descansa de tanto deporte que despues de comer vas a hacer mas de futbol y de tenis";
+	text="esto es";
 	Escribir  text;
 	
 	Escribir "Dime la palabra que quieres buscar dentro del texto";

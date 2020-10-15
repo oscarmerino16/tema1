@@ -4,7 +4,7 @@ Algoritmo ejercicioampliacion
 	Definir i Como Entero;
 	
 	i=0;
-	frase= "   holA mi   nOMbre es JUAnfra   ";
+	frase= "   HolA mi   nOMbre es JUAnfra   ";
 	
 	frase=minusculas(frase);
 	correc="" ;
@@ -22,25 +22,35 @@ Algoritmo ejercicioampliacion
 	Fin Mientras
 	correc=Subcadena(correc,0,i);
 	
-	i=0;
+	frase="";
+	Para i=0 Hasta Longitud(correc)-1 Con Paso 1 Hacer
+		
+		Si (Subcadena(correc,i,i)==" ") y (Subcadena(correc,i+1,i+1)<>" ") Entonces
+			frase= frase + Subcadena(correc,i,i);
+		SiNo
+			si (Subcadena(correc,i,i)<> " ") Entonces
+				frase=frase + Subcadena(correc,i,i);
+			FinSi
+		Fin Si
+		
+		
+	Fin Para
 	
 	
-	Mientras Subcadena(correc,i,i)<>" " Hacer
-		i=i+1;
-	Fin Mientras
 	
-	correc=Subcadena(correc,0,Longitud(correc));
-	Escribir correc;
+	//correc=Subcadena(correc,0,Longitud(correc));
+	//Escribir frase;
 	
-	
-	Para i=1 Hasta Longitud(frase)-1 Con Paso 1 Hacer
+	correc="";
+	Para i=0 Hasta Longitud(frase)-1 Con Paso 1 Hacer
 		
 		Si Subcadena(frase,i,i)=" " Entonces
 			correc=correc+Mayusculas(Subcadena(frase,i,i+1));
+			i=i+1;
 		sino
 			correc=correc + Minusculas(Subcadena(frase,i,i));
 		Fin Si
 		
 	Fin Para
-	//Escribir correc;
+	Escribir correc;
 FinAlgoritmo
