@@ -3,7 +3,11 @@ Algoritmo ejbuscar
 	Definir text, palabra Como Caracter;
 	Definir cont,i Como Entero;
 	
+<<<<<<< Updated upstream:ejercicios1.0/ejbuscar.psc
 	text="esto es";
+=======
+	text="hola descansa de tanto deporte que despues de comer vas a hacer mas de futbol y de tenis";
+>>>>>>> Stashed changes:ejercicios1.0/ejbuscar_merino_oscar.psc
 	Escribir  text;
 	
 	Escribir "Dime la palabra que quieres buscar dentro del texto";
