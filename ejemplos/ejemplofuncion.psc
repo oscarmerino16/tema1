@@ -4,13 +4,6 @@ Funcion resul <- sumarDosNumeros(num1,num2)
 	resul= num1 + num2;
 FinFuncion
 
-SubProceso mostrarLista(nu1,num2)
-	
-	
-	
-FinSubProceso
-
-
 Algoritmo funcionproce
 	
 	Definir num1, num2, resultado Como Entero;
